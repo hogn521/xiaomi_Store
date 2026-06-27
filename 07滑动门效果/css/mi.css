@@ -292,3 +292,54 @@
 .slide>ul>li:hover{
     background-color: #ff6700;
 }
+
+.slide-list{
+    /* 1226 - 侧边栏：234 =  */
+    width:992px;
+    height: 613px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    position: absolute;
+    top:0;
+    left:234px;
+    box-sizing: border-box;
+    display: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+
+.slide-list ul{
+    width:100%;
+
+}
+
+.slide-list img{
+    width:40px;
+    margin-right: 10px;
+
+}
+.slide-list ul li {
+    width:250px;
+    height: 76px;
+    float: left;
+    padding: 18px 0 18px 20px;
+    box-sizing: border-box;
+    line-height: 76px;
+
+
+}
+
+.slide-list span{
+
+    color:#333;
+    font-size: 14px;
+    position: relative;
+    top:-20px;
+}
+.slide li:hover .slide-list{
+    display: block;
+}
+
+.slide-list li:hover span{
+    color:orange
+}
